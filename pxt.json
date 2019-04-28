@@ -1,0 +1,20 @@
+{
+    "name": "robotbit",
+    "version": "0.2.8",
+    "description": "Extension for Kittenbot Robotbit",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "neopixel": "github:kittenbot/pxt-neopixel#v0.6.12",
+		"HuaRobot_M2_IR":"github:zhandroids/hua_microbit_M2-ir#1.0.0"
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+        "_locales/zh/robotbit-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true
+}
